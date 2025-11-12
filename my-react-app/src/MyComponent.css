@@ -1,0 +1,76 @@
+/* Main container */
+div {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 16px;
+  background-color: #1ba4bd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Input fields, textarea, and select */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  border: 1px solid #cba6a6;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Focus effect */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 5px rgba(3, 2, 13, 0.4);
+  outline: none;
+}
+
+/* Labels and text */
+p {
+  font-size: 14px;
+  color: #333;
+  margin: 6px 0 12px;
+}
+
+/* Radio button labels */
+label {
+  display: inline-block;
+  margin: 6px 10px 10px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 6px;
+  accent-color: #cd2a86;
+}
+
+/* Placeholder styling */
+textarea::placeholder {
+  color: #aaa;
+}
+
+/* Select dropdown */
+select {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* Optional hover effect */
+input:hover,
+textarea:hover,
+select:hover {
+  border-color: #888;
+}
+.h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: aliceblue;
+}
