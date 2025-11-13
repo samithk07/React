@@ -10,8 +10,11 @@
 // import UserGreeting from "./UserGreeting.jsx";
 // import List from "./list.jsx";
 // import MyComponent from "./MyComponent.jsx";
-import FetchData from "./FetchData.jsx";
-import MyComponent from "./Useref.jsx";
+// import FetchData from "./FetchData.jsx";
+// import MyComponent from "./Useref.jsx";
+// import From from "./From.jsx";
+// import MyComponent from "./Previous.jsx";
+import Task from "./Task.jsx";
 
 function App() {
 
@@ -22,9 +25,11 @@ function App() {
     
     
     
-    <MyComponent/>
+    // <MyComponent/>
     //<Counter/>
     // <FetchData/> 
+    // <From/>
+    <Task/>
   )
   }
 

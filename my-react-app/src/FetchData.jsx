@@ -23,21 +23,21 @@ import React, { useEffect } from 'react'
 
 
 //fetching using fetch method
-function FetchData () {
+// function FetchData () {
 
-    useEffect(()=>{
-        fetch("https://jsonplaceholder.typicode.com/todos")
-        .then(a=>a.json())
-        .then(a=>console.log(a))
+//     useEffect(()=>{
+//         fetch("https://jsonplaceholder.typicode.com/todos")
+//         .then(a=>a.json())
+//         .then(a=>console.log(a))
 
-    },[])
-    return (
-      <div>
-        Fetch Api
-      </div>
-    )
-}
-export default FetchData
+//     },[])
+//     return (
+//       <div>
+//         Fetch Api
+//       </div>
+//     )
+// }
+// export default FetchData
 
 
 
